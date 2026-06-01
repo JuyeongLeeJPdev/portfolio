@@ -22,10 +22,11 @@ li {
 }
 
 section {
-    padding: 40px 0;
+    padding-top: 80px;
 }
 
 section h2 {
+    padding-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -71,7 +72,6 @@ footer p {
 
 #profile {
     text-align: center;
-    margin-top: 30px;
 }
 
 #profile img {
@@ -99,4 +99,33 @@ footer p {
 
 .card {
     flex: 1 1 300px;
+}
+
+@media screen and (min-width: 576px) {
+
+    header {
+        padding-right: 50px;
+    }
+
+    #experience-box {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #about div {
+        padding-left: 0;
+    }
+
+    #skill ul {
+        text-align: start;
+    }
+
+    ul {
+        padding-left: 0;
+    }
 }
