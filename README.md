@@ -4,9 +4,9 @@
 
 自己紹介用ポートフォリオサイト
 
-## URL
+## Live Demo
 
-https://juyeongleejpdev.github.io/portfolio/
+<a href="https://juyeongleejpdev.github.io/portfolio/">Link<a>
 
 ## Tech Stack
 
